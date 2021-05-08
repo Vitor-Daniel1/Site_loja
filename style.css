@@ -1,0 +1,12 @@
+.button {
+    float: left;
+    border: 1px solid;
+    padding: 5px 21px;
+    vertical-align: middle;
+    background: #e28a42;
+    color: white;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: Didot, serif;
+    text-decoration: none;
+  }

@@ -10,3 +10,20 @@
     font-family: Didot, serif;
     text-decoration: none;
   }
+  
+  .bg {
+    background-image: url("images/loja2.jpg");
+    background-position: center;
+    background-attachment:  ;
+  }
+
+  #box{
+    /*definimos a largura do box*/
+    width:300px;
+    /* definimos a altura do box */
+    height:100px;
+    /* definimos a cor de fundo do box */
+    background-color:#6495ed;
+    /* definimos o quão arredondado irá ficar nosso box */
+    border-radius: 10px 20px;
+    }

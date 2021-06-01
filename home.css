@@ -25,6 +25,14 @@ font-family: 'Open Sans', sans-serif;
     background-attachment:fixed;
   }
 
+  input{ /** Aqui customiza o local de prenchimento**/
+            height: 25px;
+            width: 200px;
+            margin: 10px;
+            border-radius: 10px;
+            color:black; 
+            outline: none;
+    }
   #box{
     /*definimos a largura do box*/
     width:300px;
@@ -73,7 +81,7 @@ font-family: 'Open Sans', sans-serif;
       position: fixed;
       top: 0;
       left: 0;
-      height: 100px;
+      height: 75px;
       width: 100%;
       z-index: 1;
       background-color: #FFF;

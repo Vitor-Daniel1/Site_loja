@@ -1,0 +1,29 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+    }
+    
+.bg {
+    background-image: url("images/loja2.jpg");
+    background-position: center;
+    background-attachment:fixed;
+  }
+
+ 
+    
+  .container {
+    max-width: 1920px;
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  input{ /** Aqui customiza o local de prenchimento**/
+    display: block;
+    height: 30px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 30px;
+    color:black; 
+    outline: none;
+}

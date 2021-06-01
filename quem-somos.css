@@ -1,14 +1,86 @@
-
 html{
     font-family: 'Open Sans', sans-serif;
     }
     
 .bg {
-    background-image: url("images/loja2.jpg");
+    background-image: url("images/marble.jpg");
     background-position: center;
     background-attachment:fixed;
   }
 
+ 
+    
+  nav { /** aqui mexe na faixa branca**/
+    position: fixed;
+    top: 1;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  nav:after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+  
+  .nav-container {
+    max-width: 1200px;
+    position: relative;
+    margin-left: -150;
+
+  }
+  
+  #logo {
+    
+    width: 150px;
+    height: 100px;
+    margin-top: -25px;
+    margin-left: 150;
+  }
+  
+  .nav-container ul {
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+  }
+  
+  .nav-container ul li {
+    list-style: none;
+    float: left;
+    margin: -15 15px;
+  }
+  
+  .nav-container li a {
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+  }
+  
+  .nav-container li a:hover {
+    color: #3381f3;
+  }
+
+  .positon-item{
+    position: absolute; 
+    left: 250px; /* posiciona a 90px para a esquerda */ 
+    top: 150px; /* posiciona a 70px para baixo */
+
+    }
+
+    .field{
+        width: 100%;
+        margin: 200px 0;
+        }
+        .field label, 
+        .field span{
+        padding-left: 0px;
+        font-size: 1.1em;
+        display: block;
+        width: 100%;
+        }
 
 
 

@@ -4,21 +4,75 @@ html{
     }
     
 .bg {
-    background-image: url("images/loja2.jpg");
+    background-image: url("images/marble.jpg");
     background-position: center;
     background-attachment:fixed;
   }
 
  
     
-    .container {
-      max-width: 1920px;
-      width: 100%;
-      position: relative;
-      margin-left: auto;
-      margin-right: auto;
-    }
+  nav { /** aqui mexe na faixa branca**/
+    position: fixed;
+    top: 1;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  nav:after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+  
+  .nav-container {
+    max-width: 1200px;
+    position: relative;
+    margin-left: -150;
+
+  }
+  
+  #logo {
     
+    width: 150px;
+    height: 100px;
+    margin-top: -25px;
+    margin-left: 150;
+  }
+  
+  .nav-container ul {
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+  }
+  
+  .nav-container ul li {
+    list-style: none;
+    float: left;
+    margin: -15 15px;
+  }
+  
+  .nav-container li a {
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+  }
+  
+  .nav-container li a:hover {
+    color: #3381f3;
+  }
+
+  .positon-item{
+    position: absolute; 
+    left: 250px; /* posiciona a 90px para a esquerda */ 
+    top: 150px; /* posiciona a 70px para baixo */
+
+    }
+  
+
+
   
     input{ /** Aqui customiza o local de prenchimento**/
             display: block;
@@ -31,12 +85,63 @@ html{
             background-color: rgba(0, 0, 0, 0.39);
             color:white; 
             outline: none;
+            
     }
-    
 
-    
+    .formulario{
+      width: 400px;
+      padding: 30px;
+      border:1px solid rgba(255, 255, 255, 0.863);
+      margin-top: 80;
+  }
+  .formulario p{
+      width: 100%;
+      font-size: 1.5em;
+  }
+  .field{
+      width: 100%;
+      margin: 15px 0;
+  }
+  .field label, 
+  .field span{
+      padding-left: 0px;
+      font-size: 1.1em;
+      display: block;
+      width: 100%;
+  }
+  .radiobox label{
+      width: auto;
+      display: inline-block;
+  }
 
-
-
-
-
+  textarea{
+      width: 300px;
+      padding-left: 1px 10px;
+      height: 30px;
+      line-height: 30px;
+      border-radius: 30px;
+      outline: none;
+  }
+  input#nao{
+      margin-left: 30px;
+  }
+  textarea{
+      line-height: 20px;
+      padding: 10px;
+      height: 90px;
+      resize: none;
+  }
+  input[type=submit]{
+    display: block;
+    height: 30px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 1px 10px;
+    background-color: rgba(0, 0, 0, 0.39);
+    color:white; 
+    outline: none;
+  }
+  
+  

@@ -5,14 +5,13 @@ font-family: 'Open Sans', sans-serif;
 }
 
 
-
 .button {
     float: left;
     border: 1px solid;
     padding: 5px 21px;
     vertical-align: middle;
     background: #e28a42;
-    color: white;
+    color:black;
     border-radius: 6px;
     font-size: 15px;
     font-family: Didot, serif;
@@ -20,16 +19,18 @@ font-family: 'Open Sans', sans-serif;
   }
   
   .bg {
-    background-image: url("images/loja2.jpg");
+    background-image: url("images/marble 3.jpg");
     background-position: center;
     background-attachment:fixed;
   }
+  
+
 
   input{ /** Aqui customiza o local de prenchimento**/
             height: 25px;
             width: 200px;
             margin: 10px;
-            border-radius: 10px;
+            border-radius: 20px;
             color:black; 
             outline: none;
     }
@@ -52,7 +53,7 @@ font-family: 'Open Sans', sans-serif;
     
     h1, h2, h3, h4, h5, p, span {
       margin: 0;
-      color: #007FFF;
+      color: #0080ff86;
     }
     
     .container {
@@ -84,8 +85,6 @@ font-family: 'Open Sans', sans-serif;
       height: 75px;
       width: 100%;
       z-index: 1;
-      background-color: #FFF;
-      border-bottom: 1px solid #CCC;
     }
     
     nav:after {
@@ -101,17 +100,21 @@ font-family: 'Open Sans', sans-serif;
       margin-right: auto;
     }
     
-    #logo {
-      width: 50px;
-      height: 50px;
-      margin-top: 25px;
-    }
+   
+#logo {
+  
+        width: 150px;
+        height: 100px;
+        margin-top: -140px;
+        margin-left: -80;
+      }
+
     
     .nav-container ul {
       float: right;
       height: 100px;
-      line-height: 100px;
-      margin: 0;
+      line-height: 70px;
+      margin-left: 0;
     }
     
     .nav-container ul li {
@@ -130,6 +133,12 @@ font-family: 'Open Sans', sans-serif;
       color: #3381f3;
     }
 
+    .positon-item{
+      position: absolute; 
+      left: 250px; /* posiciona a 90px para a esquerda */ 
+      top: 150px; /* posiciona a 70px para baixo */
+
+      }
     
 
 

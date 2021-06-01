@@ -6,53 +6,97 @@
 <meta charset="utf-8">
 </html>
 
-<body class="bg"> <center>
+<body class="bg"> 
+    <nav>
+        <div class="nav-container">
+
+        
+
+
+            <ul>
+            <li><a href = "Loja.html"> Home </a></li>
+            <li><a href = "login.html"> Login </a></li>
+            <li><a href = "quem-somos.html"> Quem somos </a></li>
+            <li><a href = "contato.html"> Contato</a></li>
+            <li><a href = "trabalhe-conosco.html"> Trabalhe-conosco</a></li>
+          
+        </ul>
+        <img src="images/Logo-home (2).png"  id="logo"  ><br>
+        
+
+        </div>
+    </nav>
+</body>
+
+
+<div>
+    <body> <center> 
+    <form class="formulario" method="post"> 
+       
+        <h2>Cadastre-se</h2> 
+
+        <div class="field">
     
-
-    <tr>
-        <td aling = "rigth">
-
-            <a href = "Index.html"> Home </a>
-            <a href = "login.html"> Login </a>
-            <a href = "quem-somos.html"> Quem somos </a>
-            <a href = "contato.html"> Contato</a>
-            <a href = "trabalhe-conosco.html"> Trabalhe-conosco</a>
-            </td>
-
-
-
-        <h2>Cadastre-se</h2>
-    Nome<br>
+           <label>Nome Completo</label> 
          <input type="text" name="Nome">
-     Sobre Nome<br>
-         <input type="text" name="Nome">
+        </div>
 
-     Cpf:<br>
+
+
+        <div class="field">
+
+            Data de nascimento<center>  <input type="date" name="nascimento">
+        </div>
+
+
+        <div class="field">
+            <label>Cpf <center>  </label>
          <input type="text" name="Cpf">
+        </div>
 
-     Email<br>
-        <input type="text" name="Email">
-     Confirme seu email<br>
-        <input type="text" name="Email">
+         <div class="field">
 
-     Senha<br>
+            <label for="email">Seu E-Mail <center> </label>
+            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+
+            <label for="email">Confirme seu e-mail <center> </label>
+            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+        </div> 
+
+        <div class="field">
+            <label for="telefone">Tel/Cell <center> </label>
+            <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+        </div>
+
+    <div class="field">
+        <label>Senha <center> </label> 
          <input type="password" name="Senha">
-     Confirme sua senha<br>
+         <label>Confirme sua senha <center>  </label> 
          <input type="password" name="Senha">
+    </div>
 
-
-     sexo
-        <input type="radio" name="sexo" value="M"> Masculino <br>
-        <input type="radio" name="sexo" value="F"> Feminino<br>
-
+<br>
+        <div class="field">
+             
+        <span>Sexo:   Masculino  </span>
+           
+        <input type="radio" name="sexo"> Feminino  <input type="radio" name="sexo" value="F"> 
+        </div>
+        <br>
+        <div class="field">
      Cep<br>
-        <input type="text" name="Cep"><br>
+        <input type="text" name="Cep">
+    </div>
 
+    <div class="field">
      Rua<br>
-        <input type="text" name="Cep"><br>
+        <input type="text" name="Cep">
+    </div>
 
+        <div class="field">
      Bairro<br>
-        <input type="text" name="Cep"><br>
+        <input type="text" name="Cep">
+        </div>
 
      Estado<br>
      <select name="Estado">
@@ -83,13 +127,11 @@
          <option>Sergipe</option>
          <option>Tocantins</option>
          <option>Distrito Federal</option>
-     </select> <br>
+     </select> 
 
      <input type="submit" value="cadastrar">
 
-
+    </form>
 
 </body> </center>
-
-
-
+</div>

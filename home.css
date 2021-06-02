@@ -134,6 +134,8 @@ font-family: 'Open Sans', sans-serif;
     }
 
     .positon-item{
+      background-color: rgba(255, 255, 255, 0.404);
+      border: 2px solid rgba(255, 255, 255, 0.514);
       position: absolute; 
       left: 250px; /* posiciona a 90px para a esquerda */ 
       top: 150px; /* posiciona a 70px para baixo */

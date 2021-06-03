@@ -1,143 +1,163 @@
-html{
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-    font-family: 'Open Sans', sans-serif;
-    
-    }
-    
-    
-    .button {
-        float: left;
-        border: 1px solid;
-        padding: 5px 21px;
-        vertical-align: middle;
-        background: #e28a42;
-        color:black;
-        border-radius: 6px;
-        font-size: 15px;
-        font-family: Didot, serif;
-        text-decoration: none;
-      }
-      
-      .bg {
-        background-image: url("D:/kodaf jack/Documents/Dev/Site_loja-main/Site_loja/images/marble 3.jpg");
-        background-position: center;
-        background-attachment:fixed;
-      }
-      
-    
-    
-      input{ /** Aqui customiza o local de prenchimento**/
-                height: 25px;
-                width: 200px;
-                margin: 10px;
-                border-radius: 20px;
-                color:black; 
-                outline: none;
-        }
-      #box{
-        /*definimos a largura do box*/
-        width:300px;
-        /* definimos a altura do box */
-        height:100px;
-        /* definimos a cor de fundo do box */
-        background-color:#6495ed;
-        /* definimos o quão arredondado irá ficar nosso box */
-        border-radius: 10px 20px;
-        }
-    
-    
-    
-        body {
-          margin: 0;
-        }
-        
-        h1, h2, h3, h4, h5, p, span {
-          margin: 0;
-          color: #0080ff86;
-        }
-        
-        .container {
-          max-width: 1920px;
-          width: 100%;
-          position: relative;
-          margin-left: auto;
-          margin-right: auto;
-        }
-        
-      
-        .nav-container .btn-menumobile {
-          display: none;
-        }
-        
-        
-        header {
-          position: relative;
-          top: 0;
-          height: auto;
-          width: 100%;
-        }
-        
-        
-        nav {
-          position: fixed;
-          top: 0;
-          left: 0;
-          height: 75px;
-          width: 100%;
-          z-index: 1;
-        }
-        
-        nav:after {
-          clear: both;
-          content: "";
-          display: block;
-        }
-        
-        .nav-container {
-          max-width: 1200px;
-          position: relative;
-          margin-left: auto;
-          margin-right: auto;
-        }
-        
-       
-    #logo {
-      
-            width: 150px;
-            height: 100px;
-            margin-top: -140px;
-            margin-left: -80;
-          }
-    
-        
-        .nav-container ul {
-          float: right;
-          height: 100px;
-          line-height: 70px;
-          margin-left: 0;
-        }
-        
-        .nav-container ul li {
-          list-style: none;
-          float: left;
-          margin: 0 15px;
-        }
-        
-        .nav-container li a {
-          text-decoration: none;
-          color: black;
-          transition: .5s;
-        }
-        
-        .nav-container li a:hover {
-          color: #3381f3;
-        }
-    
-        .positon-item{
-          background-color: rgba(255, 255, 255, 0.404);
-          border: 2px solid rgba(255, 255, 255, 0.514);
-          position: absolute; 
-          left: 250px; /* posiciona a 90px para a esquerda */ 
-          top: 150px; /* posiciona a 70px para baixo */
-    
-          }
+html {
+
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.button {
+  outline: none;
+  border: none;
+  background-color: #e7c188;
+  color: #222;
+  padding: 5px 35px;
+  border-radius: 5px;
+  border-bottom: 4px solid #B8860B;
+  cursor: pointer;
+}
+
+input{
+  max-height: 40px;
+
+}
+.button:hover {
+
+  border-bottom: 0;
+  background-color: #F0CB90;
+  transition: 0.2s;
+
+
+}
+
+.bg {
+  background-image: url("../images/marble 3.jpg");
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+
+input[type=text] {
+  /** Aqui customiza o local de prenchimento**/
+  border: 1px solid #F0CB90;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  color: #222;
+  outline: none;
+}
+
+#box {
+  /*definimos a largura do box*/
+  width: 300px;
+  /* definimos a altura do box */
+  height: 100px;
+  /* definimos a cor de fundo do box */
+  background-color: #F0CB90;
+  /* definimos o quão arredondado irá ficar nosso box */
+  border-radius: 10px 20px;
+}
+
+
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span {
+  margin: 0;
+  color: #F0CB90;
+}
+
+.container {
+  max-width: 1920px;
+  width: 100%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.nav-container .btn-menumobile {
+  display: none;
+}
+
+
+header {
+  position: relative;
+  top: 0;
+  height: auto;
+  width: 100%;
+}
+
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  
+}
+
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.nav-container ul {
+  height: 100px;
+  line-height: 70px;
+  margin-left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.nav-container ul li {
+  list-style: none;
+  margin: 0 15px;
+  
+  
+}
+
+.nav-container li a {/**Aqui meche com as letras da navbar**/
+  text-decoration: none;
+  color: #222;
+  transition: .5s;
+  
+}
+
+.nav-container li a:hover {
+  color: #F0CB90;
+}
+
+.positon-item {
+  background-color: rgba(255, 255, 255, 0.404);
+  border: 2px solid rgba(255, 255, 255, 0.514);
+  position: absolute;
+  left: 250px;
+  /* posiciona a 90px para a esquerda */
+  top: 150px;
+  /* posiciona a 70px para baixo */
+
+}

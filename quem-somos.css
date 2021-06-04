@@ -1,92 +1,172 @@
-html{
-    font-family: 'Open Sans', sans-serif;
-    }
-    
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.button {
+  outline: none;
+  border: none;
+  background-color: #e7c188;
+  color: #222;
+  padding: 5px 35px;
+  border-radius: 5px;
+  border-bottom: 4px solid #B8860B;
+  cursor: pointer;
+}
+
+input{
+  max-height: 40px;
+
+}
+.button:hover {
+
+  border-bottom: 0;
+  background-color: #F0CB90;
+  transition: 0.2s;
+
+
+}
+
 .bg {
-    background-image: url("images/marble.jpg");
-    background-position: center;
-    background-attachment:fixed;
-  }
+  background-image: url("images/marble 3.jpg");
+  background-position: center;
+  background-attachment: fixed;
+}
 
- 
-    
-  nav { /** aqui mexe na faixa branca**/
-    position: fixed;
-    top: 1;
-    left: 0;
-    height: 60px;
-    width: 100%;
-    z-index: 1;
-  }
-  
-  nav:after {
-    clear: both;
-    content: "";
-    display: block;
-  }
-  
-  .nav-container {
-    max-width: 1200px;
-    position: relative;
-    margin-left: -150;
 
-  }
-  
-  #logo {
-    
-    width: 150px;
-    height: 100px;
-    margin-top: -25px;
-    margin-left: 150;
-  }
-  
-  .nav-container ul {
-    float: right;
-    height: 100px;
-    line-height: 100px;
-    margin: 0;
-  }
-  
-  .nav-container ul li {
-    list-style: none;
-    float: left;
-    margin: -15 15px;
-  }
-  
-  .nav-container li a {
-    text-decoration: none;
-    color: black;
-    transition: .5s;
-  }
-  
-  .nav-container li a:hover {
-    color: #3381f3;
-  }
 
-  .positon-item{
-    position: absolute; 
-    left: 250px; /* posiciona a 90px para a esquerda */ 
-    top: 150px; /* posiciona a 70px para baixo */
+input[type=text] {
+  /** Aqui customiza o local de prenchimento**/
+  border: 1px solid #F0CB90;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  color: #222;
+  outline: none;
+}
 
-    }
+#box {
+  /*definimos a largura do box*/
+  width: 300px;
+  /* definimos a altura do box */
+  height: 100px;
+  /* definimos a cor de fundo do box */
+  background-color: #F0CB90;
+  /* definimos o quão arredondado irá ficar nosso box */
+  border-radius: 10px 20px;
+}
 
-        .field label, 
-        .field span{
-        padding-left: 0px;
-        font-size: 1.1em;
-        display: block;
-        width: 100%;
-        }
 
+
+body {
+  margin: 0;
+}
+
+h1{
+  color: #faca7e
+
+
+}
+h2,
+h3,
+h4,
+h5,
+p{
+  margin: 15px;
+  color:#222;
+}
+span {
+  margin: 0;
+  color: #f8d193;
+}
+
+.container {
+  max-width: 1920px;
+  width: 100%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.nav-container .btn-menumobile {
+  display: none;
+}
+
+
+header {
+  position: relative;
+  top: 0;
+  height: auto;
+  width: 100%;
+}
+
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  
+}
+
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.nav-container ul {
+  height: 100px;
+  line-height: 70px;
+  margin-left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.nav-container ul li {
+  list-style: none;
+  margin: 0 15px;
+  
+  
+}
+
+.nav-container li a {/**Aqui meche com as letras da navbar**/
+  text-decoration: none;
+  color: #222;
+  transition: .5s;
+  
+}
+
+.nav-container li a:hover {
+  color: #F0CB90;
+}
 
  #conteudo{
-  background-color: rgba(158, 230, 243, 0.253);
-  border: 2px solid rgba(0, 243, 231, 0.322);
+  background-color: #f0cb9048;
+  border: 2px solid white;
   width: 75%;
   margin: 200px 0;
   padding: 5px;
-  margin-left: 160;
+  margin-left: 160px;
   margin-top: 150px;
+  
  }
 
 

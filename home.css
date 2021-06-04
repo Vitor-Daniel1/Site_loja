@@ -161,3 +161,29 @@ nav {
   /* posiciona a 70px para baixo */
 
 }
+
+.pag-container{
+  width: 220px;
+  height: 500px;
+  margin-left: -250px;
+  margin-top: 50px;
+  border: 1px solid white ;
+  background-color: rgba(255, 250, 250, 0.555);
+}
+
+.pag-container li {
+  list-style: none;
+  margin: 0 15px;
+
+}
+
+.pag-container li a {/**Aqui meche na pag lateral**/
+  text-decoration: none;
+  color: #222;
+  transition: .5s;
+  
+}
+
+.pag-container li a:hover {
+  color: #F0CB90;
+}

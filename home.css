@@ -151,30 +151,26 @@ nav {
   color: #F0CB90;
 }
 
-.positon-item {
-  background-color: rgba(255, 255, 255, 0.404);
-  border: 2px solid rgba(255, 255, 255, 0.514);
-  position: absolute;
-  left: 250px;
-  /* posiciona a 90px para a esquerda */
-  top: 150px;
-  /* posiciona a 70px para baixo */
-
-}
 
 .pag-container{
-  width: 220px;
-  height: 500px;
-  margin-left: -250px;
-  margin-top: 50px;
-  border: 1px solid white ;
-  background-color: rgba(255, 250, 250, 0.555);
+  display:flow-root;
+  width:220px ;
+  height: 390px;
+  margin-left: 5px;
+  margin-top: 150px;
+  border: 2px solid white ;
+  background-color: white;
 }
 
 .pag-container li {
   list-style: none;
-  margin: 0 15px;
-
+  margin: 15 15px;
+  
+}
+.pag-container span {
+  list-style: none;
+  margin: 15 15px;
+  font-size: 17px;
 }
 
 .pag-container li a {/**Aqui meche na pag lateral**/
@@ -186,4 +182,67 @@ nav {
 
 .pag-container li a:hover {
   color: #F0CB90;
+}
+
+
+
+.positon-item {
+  background-color: rgba(255, 255, 255, 0.404);
+  border: 2px solid rgba(255, 255, 255, 0.514);
+  position: absolute;
+  left: 260px;
+  /* posiciona a 90px para a esquerda */
+  top: 150px;
+  /* posiciona a 70px para baixo */
+}
+
+.range_input{
+-webkit-appearance: none;
+width: 100%;
+margin: 4.45px 0;
+background-color: #B8860B;
+max-height: 5px;
+cursor:pointer;
+
+}
+
+.range_display{
+margin-left: 50px;
+line-height: 28px;
+padding: 0 10px;
+font-size: 16px;
+font-family: 'Open Sans', sans-serif;
+font-weight: normal;
+color:#e7c188;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+
+}
+
+.next-pag a {
+  margin: 15px 5px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  cursor:pointer;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: #222;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: #222;
+}
+
+.next {
+  background-color: #e7c188;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
 }

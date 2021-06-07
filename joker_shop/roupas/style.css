@@ -204,6 +204,7 @@ nav {
   /* posiciona a 90px para a esquerda */
   top: 150px;
   /* posiciona a 70px para baixo */
+
 }
 
 .range_input{
@@ -255,4 +256,11 @@ a:hover {
 
 .round {
   border-radius: 50%;
+}
+
+.product-item_name{
+position: relative;
+line-height: 14px;
+font-size: 12px;
+
 }

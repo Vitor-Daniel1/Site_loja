@@ -1,15 +1,12 @@
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html {
-
+html{
   font-family: 'Open Sans', sans-serif;
-
+  }
+  
+.bg {
+  background-image: url("../images/marble.jpg");
+  background-position: center;
+  background-attachment:fixed;
 }
-
 
 .button {
   outline: none;
@@ -18,12 +15,12 @@ html {
   color: #222;
   padding: 5px 35px;
   border-radius: 5px;
-  border-bottom: 4px solid #B8860B;
+  border-bottom: 3px solid #B8860B;
   cursor: pointer;
 }
 
 input{
-  max-height: 40px;
+  max-height: 50px;
 
 }
 .button:hover {
@@ -31,19 +28,9 @@ input{
   border-bottom: 0;
   background-color: #F0CB90;
   transition: 0.2s;
-
-
 }
 
-.bg {
-  background-image: url("images/marble 3.jpg");
-  background-position: center;
-  background-attachment: fixed;
-}
-
-
-
-input[type=text] {
+input[type=email] {
   /** Aqui customiza o local de prenchimento**/
   border: 1px solid #F0CB90;
   padding: 10px 20px;
@@ -52,42 +39,7 @@ input[type=text] {
   color: #222;
   outline: none;
 }
-
-#box {
-  /*definimos a largura do box*/
-  width: 300px;
-  /* definimos a altura do box */
-  height: 100px;
-  /* definimos a cor de fundo do box */
-  background-color: #F0CB90;
-  /* definimos o quão arredondado irá ficar nosso box */
-  border-radius: 10px 20px;
-}
-
-
-
-body {
-  margin: 0;
-}
-
-h1{
-  color: #faca7e
-
-
-}
-h2,
-h3,
-h4,
-h5,
-p{
-  margin: 15px;
-  color:#222;
-}
-span {
-  margin: 0;
-  color: #f8d193;
-}
-
+ 
 .container {
   max-width: 1920px;
   width: 100%;
@@ -114,6 +66,7 @@ nav {
   position: absolute;
   top: 0;
   left: 0;
+  height: 10%;
   width: 100%;
   background-color: white;
   
@@ -158,17 +111,42 @@ nav {
   color: #F0CB90;
 }
 
- #conteudo{
-  background-color: #f0cb9048;
-  border: 2px solid white;
-  width: 75%;
-  margin: 200px 0;
-  padding: 5px;
-  margin-left: 160px;
-  margin-top: 150px;
+
+.positon-item{
+  position: absolute; 
+  left: 250px; /* posiciona a 90px para a esquerda */ 
+  top: 150px; /* posiciona a 70px para baixo */
+
+  }
+
+
+input{ /** Aqui customiza o local de prenchimento**/
+  display: block;
+  height: 30px;
+  width: 300px;
+  font-size: 20px;
+  padding: 1px 10px;
+  outline: none;
+  border: 1px solid #F0CB90;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  color: #222;
+  outline: none;
   
- }
+  
+}
 
 
-
+.field{
+width: 100%;
+margin: 200px 0;
+}
+.field label, 
+.field span{
+padding-left: 0px;
+font-size: 1.1em;
+display: block;
+width: 100%;
+}
 

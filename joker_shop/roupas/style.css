@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -22,10 +22,11 @@ html {
   cursor: pointer;
 }
 
-input{
+input {
   max-height: 40px;
 
 }
+
 .button:hover {
 
   border-bottom: 0;
@@ -36,7 +37,7 @@ input{
 }
 
 .bg {
-  background-image: url("../images/marble 3.jpg");
+  background-image: url("../images/marble 3.jpg") no-repeat center;
   background-position: center;
   background-attachment: fixed;
 }
@@ -104,12 +105,12 @@ header {
 
 
 nav {
-  position: absolute;
+  /* position: absolute; não usar para qualquer coisa*/
   top: 0;
   left: 0;
   width: 100%;
   background-color: white;
-  
+
 }
 
 
@@ -136,107 +137,89 @@ nav {
 .nav-container ul li {
   list-style: none;
   margin: 0 15px;
-  
-  
+
+
 }
 
-.nav-container li a {/**Aqui meche com as letras da navbar**/
+.nav-container li a {
+  /**Aqui meche com as letras da navbar**/
   text-decoration: none;
   color: #222;
   transition: .5s;
-  
+
 }
 
 .nav-container li a:hover {
   color: #F0CB90;
 }
 
-.positon-item {
-  background-color: rgba(255, 255, 255, 0.404);
-  border: 2px solid rgba(255, 255, 255, 0.514);
-  position: absolute;
-  left: 250px;
-  /* posiciona a 90px para a esquerda */
-  top: 150px;
-  /* posiciona a 70px para baixo */
 
-}
-
-.pag-container{
-  display:flow-root;
-  width:220px ;
-  height: 390px;
-  margin-left: 5px;
-  margin-top: 150px;
-  border: 2px solid white ;
+.pag-container {
+  padding: 10px 10px;
+  height: 420px;
+  border: 2px solid white;
   background-color: white;
 }
 
 .pag-container li {
   list-style: none;
   margin: 15 15px;
-  
+
 }
+
 .pag-container span {
   list-style: none;
   margin: 15 15px;
   font-size: 17px;
 }
 
-.pag-container li a {/**Aqui meche na pag lateral**/
+.pag-container li a {
+  /**Aqui meche na pag lateral**/
   text-decoration: none;
   color: #222;
   transition: .5s;
-  
+
 }
 
 .pag-container li a:hover {
   color: #F0CB90;
 }
 
-
-
-.positon-item {
+.position-item {
   background-color: rgba(255, 255, 255, 0.404);
   border: 2px solid rgba(255, 255, 255, 0.514);
-  position: absolute;
-  left: 260px;
-  /* posiciona a 90px para a esquerda */
-  top: 150px;
-  /* posiciona a 70px para baixo */
+}
+
+.range_input {
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 4.45px 0;
+  background-color: #B8860B;
+  max-height: 5px;
+  cursor: pointer;
 
 }
 
-.range_input{
--webkit-appearance: none;
-width: 100%;
-margin: 4.45px 0;
-background-color: #B8860B;
-max-height: 5px;
-cursor:pointer;
-
-}
-
-.range_display{
-margin-left: 50px;
-line-height: 28px;
-padding: 0 10px;
-font-size: 16px;
-font-family: 'Open Sans', sans-serif;
-font-weight: normal;
-color:#e7c188;
-white-space: nowrap;
-overflow: hidden;
-text-overflow: ellipsis;
+.range_display {
+  margin-left: 50px;
+  line-height: 28px;
+  padding: 0 10px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  color: #e7c188;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 
 }
 
 .next-pag a {
-  margin: 15px 5px;
+  margin: 15px 15px;
   text-decoration: none;
-  display: inline-block;
+  display: inline-flex;
   padding: 8px 16px;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 a:hover {
@@ -258,9 +241,35 @@ a:hover {
   border-radius: 50%;
 }
 
-.product-item_name{
-position: relative;
-line-height: 14px;
-font-size: 12px;
+.product-item_name {
+  position: relative;
+  line-height: 14px;
+  font-size: 12px;
 
+}
+
+
+/*aqui vitão */
+
+.meu-primeiro-container {
+  margin: 30px 0;
+}
+
+.meu-primeiro-container .row {
+  margin: 0;
+}
+
+.moleton-all {
+  margin: 0 auto;
+}
+
+.moleton {
+  padding: 20px 10px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.moleton-img {
+  max-width: 200px;
 }

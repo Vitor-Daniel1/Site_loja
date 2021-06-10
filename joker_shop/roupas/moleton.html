@@ -3,14 +3,17 @@
 <head>
     <title> Joker - Moletom </title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.scss">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
 </head>
 
 <body class="bg">
+    
     <nav>
         <div class="nav-container">
             <img src="../images/Logo-home (2).png" width="150.2">
@@ -29,43 +32,102 @@
 
         </div>
     </nav>
-    <div class="pag-container">
-        <span> Categorias</span>
-        <li><a href="masculina.html"> Roupas Masculina </a></li>
-        <li><a href="feminina.html"> Roupas feminina </a></li>
-        <li><a href="infantil.hml.html"> Roupas infantil </a></li>
-        <li><a href="blusas.html"> blusas </a></li>
-        <li><a href="moleton.html"> moleton </a></li>
-        <li><a href="calca.html"> Calsa </a></li>
-        <li><a href="short.html"> Short</a></li>
-        <li><a href="sapatos.html"> Sapatos </a></li>
-        <input class="range_input" type="range" id="price_range" min="0" max="13" step="1" value="13">
-        <div class="range_display">Gratuito</div>
+
+
+
+    <div class="container meu-primeiro-container">
+        <div class="row">
+            <div class="col-3">
+                <div class="pag-container">
+                    <span> Categorias</span>
+                    <li><a href="masculina.html"> Roupas Masculina </a></li>
+                    <li><a href="feminina.html"> Roupas feminina </a></li>
+                    <li><a href="infantil.hml.html"> Roupas infantil </a></li>
+                    <li><a href="blusas.html"> blusas </a></li>
+                    <li><a href="moleton.html"> moleton </a></li>
+                    <li><a href="calca.html"> Calsa </a></li>
+                    <li><a href="short.html"> Short</a></li>
+                    <li><a href="sapatos.html"> Sapatos </a></li>
+                    <input class="range_input" type="range" id="price_range" min="0" max="13" step="1" value="13">
+                    <div class="range_display">Gratuito</div>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="position-item">
+    
+                    <h2>Moletons</h2> <br>
+                    
+                        <div class="moletons-all row">
+                            <div class="moleton col-3" >
+                                <img class="moleton-img row" src="../product/moletom/moletom_anime.webp">
+                                <a class="row" href="">Moleton anime</a>
+                            </div>
+                
+                            <div class="moleton col-3" >
+                                <img class="moleton-img row" src="../product/moletom/moletom_beautiful.webp">
+                                <a class="row" href="">Moleton Beautiful</a>
+                            </div>
+                            
+                            <div class="moleton col-3"  >
+                                <img class="moleton-img row" src="../product/moletom/moletom_dragon.webp">
+                                <a class="row" href="">Moleton Dragão</a>
+                            </div>
+                            
+                            <div class="moleton col-3" >
+                                <img class="moleton-img row" src="../product/moleton casual floral.webp">
+                                <a class="row" href="">Moleton Floral</a>
+                            </div>
+                            
+                            <div class="moleton col-3" >
+                                <img class="moleton-img row" src="../product/moletom/moletom_japones.webp">
+                                <a class="row" href="">Moleton Japones</a>
+                            </div>
+                            
+                            <div class="moleton col-3" >
+                                <img class="moleton-img row" src="../product/moletom/moletom_love.webp">
+                                <a class="row" href="">Moleton Love</a>
+                            </div>
+                            
+                            <div class="moleton col-3" >
+                                <img class="moleton-img row" src="../product//moletom/moletom_oakland.webp">
+                                <a class="row" href="">Moleton oakland</a>
+                            </div>
+                            
+                            <div class="moleton col-3">
+                                <img class="moleton-img row" src="../product/moletom/moletom_what.webp">
+                                <a class="row" href="">Moleton what</a>
+                            </div>
+                            
+                            <div class="moleton col-3" >
+                                <img class="moleton-img row" src="../product/sueter mascolino.webp">
+                                <a class="row" href=""> Sueter Basico manga Vermelha </a>
+                            </div>
+                
+                            <div class="moleton col-3" >
+                                <img class="moleton-img row" src="../product/sueter fogo.webp">
+                                <a class="row" href="">Moleton detalhe fogo</a>
+                            </div>
+                        </div>
+            
+            
+            
+                    <a href="#" class="previous round"> ‹ </a>
+                    <a href="#" class="next round"> › </a>
+                
+                </div>
+            </div>
+        </div>
     </div>
 
 
-    <div class=positon-item>
-
-        <h2>Moletons</h2> <br>
-
-
-        <img src="../product/moletom/moletom_anime.webp" width="200" aria-label="Calsa estilosa">
-        <div class="product-item_name"><a>Moleton anime</a></div>
-        <img src="../product/moletom/moletom_beautiful.webp" width="200">
-        <div class="product-item_name"><a>Moleton Beautiful</a></div>
-        <img src="../product/moletom/moletom_dragon.webp" width="200">
-        <img src="../product/moleton casual floral.webp" width="200">
-        <img src="../product/moletom/moletom_japones.webp" width="200">
-        <img src="../product/moletom/moletom_love.webp" width="200">
-        <img src="../product//moletom/moletom_oakland.webp" width="200">
-        <img src="../product/moletom/moletom_what.webp" width="200">
-        <img src="../product/sueter mascolino.webp" width="200">
-        <img src="../product/sueter fogo.webp" width="200">
-
-
-        <a href="#" class="previous round"> ‹ </a>
-        <a href="#" class="next round"> › </a>
+    <div class="header">
+        
+    
+    
+        
     </div>
-    </div>
+
+    
+</body>
 
 </html>

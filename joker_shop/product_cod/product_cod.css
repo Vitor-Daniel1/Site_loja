@@ -9,4 +9,38 @@
     font-family: 'Open Sans', sans-serif;
   
   }
+
   
+  table{
+    width: 50%;
+    border-collapse: separate;
+  }
+
+  td, th{
+padding: 5px;
+
+
+  }
+
+  th{
+    text-transform: uppercase;
+    border-top: 1px solid #F0CB90 ;
+    border-bottom: 1px solid #F0CB90;
+    text-align: 90%;
+    letter-spacing: 0.1em;
+
+
+  }
+
+  tr:hover{
+    background-color:  #F0CB90;
+
+
+  }
+
+  .table{
+ width: center;
+
+
+
+  }
